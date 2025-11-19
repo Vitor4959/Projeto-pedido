@@ -1,3 +1,5 @@
+package pedido;
+
 public class Produto {
     private float vlrUnitario;
     private String nome;

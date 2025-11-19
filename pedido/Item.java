@@ -1,3 +1,5 @@
+package pedido;
+
 public class Item {
     private Integer qtd;
     private Produto produto;
@@ -6,12 +8,12 @@ public class Item {
         return qtd * produto.getVlrUnitario();
     }
 
-    public int getQyc() {
+    public Integer getQtd() {
         return qtd;
     }
 
-    public void setQyc(int qyc) {
-        this.qtd = qyc;
+    public void setQtd(Integer qtd) {
+        this.qtd = qtd;
     }
 
     public Produto getProduto() {
